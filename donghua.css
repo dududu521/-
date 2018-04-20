@@ -1,0 +1,33 @@
+/*
+* @Author: Administrator
+* @Date:   2018-03-25 09:41:39
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-03-25 09:48:41
+*/
+div{
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	background: pink;
+	animation: bianse 3s 5; 
+}
+@keyframes bianse{
+	0%{
+        background: green;
+	}
+	25%{
+		background: yellow;
+	}
+	50%{
+		background: deeppink;
+	}
+	70%{
+		background: blue;
+	}
+	95%{
+		background: skyblue;
+	}
+	100%{
+		background: red;
+	}
+}
